@@ -1,0 +1,80 @@
+
+
+<html>
+  <head>
+    <title>Dr. Hetal Shah Physiotherapist Clinic </title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .patientBtn{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block;
+      }
+      .assistant{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        cursor: pointer;
+      }
+      .assistant:hover{
+        border: 1px solid #70BB3F;
+        background-color: #9EDA5D;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <center class= "title">
+        <a class="navbar-brand" href="index.html" style="font-size: 30px;">
+          <b>Dr. Hetal Shah Physiotherapist Clinic</b>
+        </a>
+      </center>
+
+      <div class="HomeButtonBar">
+				<a href="index.html" class="HomeButton">&#8701; Home</a>
+			</div>
+
+      <center>
+        <h2>My Assistants</h2>
+        <div class="mainList">
+          <ol style="list-style-type:disc" class="CustomList">
+            <li onclick="openSection(1)" class="assistant">Aditi
+              <div id="aditi-files">
+               
+                <a  href="docs/Resume-AditiPatel.pdf"class="btn btn-primary"><button class="patientBtn">Information</button></a>
+                <button class="patientBtn">Duration</button>
+              </div>
+            </li>   
+            <li onclick="openSection(2)" class="assistant">Juhi
+              <div id="juhi-files">
+                <button class="patientBtn">Information</button>
+                <button class="patientBtn">Duration</button>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </center>
+    </div>
+    <script>
+      document.getElementById("juhi-files").style.display = "none";
+      document.getElementById("aditi-files").style.display = "none";
+
+      function openSection(assitantID){
+        if(assitantID==1){
+          document.getElementById("aditi-files").style.display = "block";
+          document.getElementById("juhi-files").style.display = "none";
+        }
+        if(assitantID==2){
+          document.getElementById("juhi-files").style.display = "block";
+          document.getElementById("aditi-files").style.display = "none";
+        }
+      }
+    </script>
+
+    <footer align="center">
+        Developed By Aditi Patel
+      </footer>
+  </body>
+</html>

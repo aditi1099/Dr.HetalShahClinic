@@ -1,0 +1,102 @@
+body 
+{  
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+    padding: 0;
+}
+.title
+{ 
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); 
+    padding: 40px;
+}
+.title a
+{
+    color: black;
+}
+.title a:visited
+{
+    color: black;
+}
+.title a:hover{
+    color: yellow;
+}
+ul
+{
+    list-style-type: none;
+}
+.name
+{
+    height:1cm; 
+    width: 1cm; 
+    border-radius: 1cm; 
+    background-color: red;
+    display: inline-block;
+}
+.HomeButtonBar{
+    width: 100%; 
+    height: 50px;
+    background:#0b8793;
+    padding-top: 15px;
+}
+.HomeButton{
+    margin-left: 30px;
+    font-size: 25px;
+    color: white;
+}
+.IndexElement{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: block;
+    font-size: 18px;
+    text-decoration: none !important;
+}
+.IndexElementDiv{
+    padding: 1.5em;
+    border: 1px solid #70BB3F;
+    border-radius: 5px;
+    width: 200px;
+    color: black;
+}
+.IndexElementDiv:visited{
+    color: black;
+}
+.IndexElementDiv:hover{
+    color: black;
+}
+.IndexElementDiv:hover{
+    border: 1px solid #70BB3F;
+    background-color: #9EDA5D;
+    width: 200px;
+}
+.About{
+ font-family: 'Balsamiq Sans', cursive;
+ color: black;
+}
+
+.mainList{
+width: 200px;
+}
+.customList{
+    text-align: left;
+}
+.CovidForm{
+font-family: 'Balsamiq Sans', cursive;
+color: #900C3F;
+
+}
+
+footer{
+    height: 30px;
+    width: 100%;
+    position: fixed;
+  left: 0; font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+    padding: 0;
+
+  bottom: 0;
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); 
+}

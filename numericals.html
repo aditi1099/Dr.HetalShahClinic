@@ -1,0 +1,87 @@
+<html>
+	<head>
+    <title>Dr. Hetal Shah Physiotherapist Clinic </title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      audio{
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <center class= "title">
+        <a class="navbar-brand" href="index.html" style="font-size: 30px;">
+          <b>Dr. Hetal Shah Physiotherapist Clinic</b>
+        </a>
+      </center>
+      <div class="HomeButtonBar">
+				<a href="index.html" class="HomeButton">&#8701; Home</a>
+			</div>
+    </div>
+
+    <center>
+      <h2>Numericals</h2>   
+      <div class="mainList">
+        <ul  class="CustomList">
+          <li>
+            1-100
+            <br>
+            <button>Repeat</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <br><br>
+          </li> 
+          <li>
+            1-50
+            <br>
+            <button onclick="document.getElementById('1_50_Counts').play();">Repeat</button>
+            <br>
+            <br>
+            <button onclick="document.getElementById('1_50_Counts').play();">PLAY</button>
+            <button onclick="document.getElementById('1_50_Counts').pause();">STOP</button>
+            <br>
+            
+              <tr>
+                  <audio id="1_50_Counts">
+                    <source src="Numericals.ogg" type="audio/ogg">
+                    <source src="1-50.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                  </audio>
+                </td>
+              </tr>
+              <!--
+              <tr>
+                <td style="padding-left: 10px;padding-right: 10px;">2</td>
+                <td>
+                  <audio controls>
+                    <source src="Numericals.ogg" type="audio/ogg">
+                    <source src="1-50.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                  </audio>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-left: 10px;padding-right: 10px;">3</td>
+                <td>
+                  <audio controls>
+                    <source src="Numericals.ogg" type="audio/ogg">
+                    <source src="1-50.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                  </audio>
+                </td>
+              </tr> -->
+            </table>
+          </li>
+        </ul>
+      </div>
+    </center>
+
+   <footer align="center">
+        Developed By Aditi Patel
+      </footer>
+  </body>
+</html>
